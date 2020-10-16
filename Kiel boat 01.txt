@@ -1,0 +1,109 @@
+Project               : Könnyű evezős
+Designer              : Czifra Péter
+Filename              : Kiel boat 01.fbm
+
+Design length         :      6.000 m
+Length over all       :      6.000 m
+Design beam           :      0.780 m
+Beam over all         :      0.780 m
+Design draft          :      0.100 m
+Midship location      :      2.600 m
+Water density         :      1.025 t/m^3
+Appendage coefficient :     1.0000
+Volume properties:
+    Displaced volume                            :         0.242 m^3
+    Displacement                                :         0.248 tonnes
+    Total length of submerged body              :         5.844 m
+    Total beam of submerged body                :         0.706 m
+    Block coefficient                           :        0.5868
+    Prismatic coefficient                       :        0.7248
+    Vert. prismatic coefficient                 :        0.7924
+    Wetted surface area                         :         3.628 m^2
+    Longitudinal center of buoyancy             :         2.932 m
+    Longitudinal center of buoyancy             :         0.168 %
+    Transverse center of buoyancy               :         0.000 m
+    Vertical center of buoyancy                 :         0.058 m
+Midship properties:
+    Midship location                            :        2.6000 m
+    Midship section area                        :         0.057 m^2
+    Midship coefficient                         :        0.8096
+Waterplane properties:
+    Length on waterline                         :         5.844 m
+    Beam on waterline                           :         0.706 m
+    Waterplane area                             :         3.056 m^2
+    Waterplane coefficient                      :        0.7405
+    Waterplane center of floatation             :         2.969 m
+    Y coordinate of DWL area CoG                :         0.000 m
+    Half entrance angle of DWL                  :        17.579 degr
+    Transverse moment of inertia                :         0.099 m^4
+    Longitudinal moment of inertia              :         5.603 m^4
+Initial stability:
+    Vertical of transverse metacenter           :         0.467 m
+    Transverse metacentric radius               :         0.409 m
+    Longitudinal transverse metacenter          :        23.199 m
+    Longitudinal metacentric radius             :        23.141 m
+Lateral plane:
+    Lateral area                                :         0.573 m^2
+    Longitudinal center of effort               :         2.839 m
+    Vertical center of effort                   :         0.050 m
+Hull characteristics above waterline:
+    Lateral wind area                           :         1.723 m^2
+    Z coordinate of wind area CoG               :         0.246 m
+    X coordinate of wind area CoG               :         2.961 m
+    Distance from wind area CoG to DWL          :         0.146 m
+    Distance from bow (FP) to wind area CoG     :         3.039 m
+    Minimal board height over DWL               :         0.244 m
+    Minimal board height over DWL               :         4.073 %Lmax
+Stability characteristics:
+    Test stability coefficient                  :         1.204 if >= 0,8 then OK
+
+
+
+
+The following layer properties are calculated for both sides of the ship:
++-------------------------+---------+-----------+----------+---------+---------+---------+
+|          Layer          | Area    | Thickness | Weight   |  COG X  |  COG Y  |  COG Z  |
+|                         |  m^2    |    mm     |   tonnes |   m     |   m     |   m     |
++-------------------------+---------+-----------+----------+---------+---------+---------+
+| Fenék                  |   2.693 |     0.000 |    0.000 |   2.875 |   0.000 |   0.015 |
+| Fenék oldal            |   3.321 |     0.000 |    0.000 |   3.030 |   0.000 |   0.218 |
+| Oldal                   |   0.697 |     0.000 |    0.000 |   3.056 |   0.000 |   0.055 |
++-------------------------+---------+-----------+----------+---------+---------+---------+
+  Total                      6.711                  0.000     0.000     0.000     0.000
+  
+Attention: Weight of a ship and displacement are difference more then 10% !
+  
+    
+
+Sectional areas:
+
+ +-----------+----------+
+ | Location  | Area     |
+ |    m      |   m^2    |
+ +-----------+----------+
+ |     0.000 |    0.000 | 
+ |     0.000 |    0.000 | 
+ |     0.300 |    0.012 | 
+ |     0.600 |    0.024 | 
+ |     0.900 |    0.034 | 
+ |     1.200 |    0.043 | 
+ |     1.500 |    0.049 | 
+ |     1.800 |    0.054 | 
+ |     2.100 |    0.056 | 
+ |     2.400 |    0.057 | 
+ |     2.700 |    0.057 | 
+ |     3.000 |    0.057 | 
+ |     3.300 |    0.057 | 
+ |     3.600 |    0.057 | 
+ |     3.900 |    0.055 | 
+ |     4.200 |    0.053 | 
+ |     4.500 |    0.048 | 
+ |     4.800 |    0.041 | 
+ |     5.100 |    0.031 | 
+ |     5.400 |    0.018 | 
+ |     5.844 |    0.000 | 
+ +-----------+----------+
+ 
+NOTE 1: Draft (and all other vertical heights) is measured from point of the hull Z=0.
+NOTE 2: All calculated coefficients based on actual dimensions of submerged body.
+
